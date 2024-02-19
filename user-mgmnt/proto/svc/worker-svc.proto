@@ -1,0 +1,25 @@
+syntax = "proto3";
+package svc;
+
+option go_package = "./stubs";
+
+import "proto/models/worker-info.proto";
+
+message WorkerManagementRequest {
+    string id = 1; 
+    models.WorkerData workerData = 2;
+}
+
+message WorkerManagementResponse {
+    string id = 1; 
+    string status = 2;
+    repeated models.WorkerData workerData = 3;
+}
+
+service WorkerManagement {
+    rpc CreateWorkerAccount (WorkerManagementRequest) returns (WorkerManagementResponse) {}
+    rpc DeleteWorkerAccount (WorkerManagementRequest) returns (WorkerManagementResponse) {}
+    rpc GetAllWorkerAccounts (WorkerManagementRequest) returns (WorkerManagementResponse) {}
+    rpc GetWorkerById (WorkerManagementRequest) returns (WorkerManagementResponse) {}
+    rpc UpdateWorkerById (WorkerManagementRequest) returns (WorkerManagementResponse) {}
+}

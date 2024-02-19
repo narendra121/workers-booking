@@ -1,0 +1,31 @@
+syntax = "proto3";
+package models;
+
+option go_package = "./stubs";
+
+
+import "proto/models/review.proto";
+
+message UserInfo {
+  string id = 1;
+  string legalGivenName = 2;
+  string legalFamilyName = 3;
+  int32 age = 4;
+  Address address = 5;
+  int64 phoneNumber = 6;  
+  Review review = 7;
+  bool isWorker = 8;
+  bool isVerified= 9;
+}
+
+message Address {
+   string houseNumber = 1;
+   string landMark = 2;
+   string street = 3;
+   string city = 4;
+   string district = 5;
+   string state = 6;
+   string postalCode = 7;
+   string country = 8;
+}
+

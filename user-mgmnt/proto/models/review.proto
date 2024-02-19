@@ -1,0 +1,15 @@
+syntax = "proto3";
+package models;
+
+option go_package = "./stubs";
+
+
+message Review {
+   repeated FeedBackByUser feedBack = 1;
+}
+
+message FeedBackByUser {
+   string id = 1;
+   string rating = 2;
+   string comments = 3;
+}

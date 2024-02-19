@@ -1,0 +1,18 @@
+syntax = "proto3";
+package models;
+
+option go_package = "./stubs";
+
+import "proto/models/review.proto";
+import "proto/models/worker-info.proto";
+
+message GroupDetails {
+    string groupName = 1;
+    string groupId =   2;
+    WorkerData groupLeader = 3;
+    bool isAvailable = 4;
+    int32 wagePerDay = 5;
+    string expectedAvailabilityDate = 6;
+    Review review = 7;
+    repeated WorkerData groupMembers = 8;
+}

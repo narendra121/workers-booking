@@ -1,0 +1,21 @@
+syntax = "proto3";
+package models;
+
+option go_package = "./stubs";
+
+import "proto/models/user-common-info.proto";
+
+
+message WorkerData {
+  UserInfo personalDetails = 1;
+  Skills skills = 2;
+  bool isAvailable = 3;
+  string expectedAvailabilityDate = 4;
+  int32 wagePerDay = 5;
+}
+
+message Skills {
+  repeated string skills = 1;
+}
+
+
