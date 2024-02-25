@@ -1,7 +1,7 @@
 syntax = "proto3";
 package models;
 
-option go_package = "./stubs";
+option go_package = "/stubs";
 
 import "proto/models/review.proto";
 import "proto/models/worker-info.proto";

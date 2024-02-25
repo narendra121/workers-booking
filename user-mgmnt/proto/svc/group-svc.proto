@@ -1,6 +1,6 @@
 syntax = "proto3";
 package svc;
 
-option go_package = "./stubs";
+option go_package = "/stubs";
 
 
