@@ -34,8 +34,9 @@ func ConfigureLog() {
 		SetLogLevel(zap.DebugLevel).
 		SetEncoderConfig(cfg).
 		// SetDisableCaller(true).
-		// SetDisableStacktrace(true).
+		SetDisableStacktrace(true).
 		Build()
-		
+
 	Log = logCfg
+	defer Log.Sync()
 }

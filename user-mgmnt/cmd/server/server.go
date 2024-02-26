@@ -20,9 +20,6 @@ func main() {
 	}
 	server := grpc.NewServer()
 	registersvc.RegisterServers(server, listner)
-	logging.Log.Info("server started...")
-	logging.Log.Error("server started...")
-	logging.Log.Warn("server started...")
-	logging.Log.Debug("server started...")
-	logging.Log.DPanic("server started...")
+	// logging.Log.Info("server started...")
+	
 }

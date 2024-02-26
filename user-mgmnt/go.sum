@@ -6,8 +6,8 @@ github.com/golang/protobuf v1.5.3/go.mod h1:XVQd3VNwM+JqD3oG2Ue2ip4fOMUkwXdXDdiu
 github.com/google/go-cmp v0.5.5/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
 github.com/google/go-cmp v0.6.0/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
-github.com/narendra121/pkghub v0.0.0-20240225145101-4733f72b3174 h1:+KUeVN33EEpfo4lODQxohm3sMBQxLhsexl8evpzdPM0=
-github.com/narendra121/pkghub v0.0.0-20240225145101-4733f72b3174/go.mod h1:La1PvdD5It0OyHAFc1ahqRI5aC1izWB1oYLVJVFVae8=
+github.com/narendra121/pkghub v0.0.0-20240225161813-a16e50431720 h1:nG6CPU/8kl6loiNHvFriowTSEk0HDGKiA/N+lznywyU=
+github.com/narendra121/pkghub v0.0.0-20240225161813-a16e50431720/go.mod h1:La1PvdD5It0OyHAFc1ahqRI5aC1izWB1oYLVJVFVae8=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/testify v1.8.1 h1:w7B6lhMri9wdJUVmEZPGGhZzrYTPvgJArz7wNPgYKsk=
